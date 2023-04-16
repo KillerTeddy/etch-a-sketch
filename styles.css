@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 512px;
+    height: 512px;
+    border: 1rem solid rgb(40, 40, 40);
+    border-radius: .5rem;
+
+}
+
+.grid-square{
+    flex: 1 1 auto;
+    background-color: white;
+    
+}
+
+.slider {
+    width: 100%;
+  }
+  
+  .slider-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h1{
+    margin: 0 auto;
+    text-align: center;
+  }
